@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_my_glsurface_view);
 
         gLView = new MyGLSurfaceView(this);
-
         setContentView(gLView);
     }
 }
